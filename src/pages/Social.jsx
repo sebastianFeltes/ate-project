@@ -1,20 +1,20 @@
-import { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+/* import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet"; */
 
 export default function Social() {
-	const [pageTitle, setPageTitle] = useState("ATE | Es con vos...");
+/* 	const [pageTitle, setPageTitle] = useState("ATE | Es con vos...");
 	useEffect(() => {
 		// Cambiar el título de la página cuando el componente se monta
 		setPageTitle("Social | ATE Berisso");
 
 		// Limpiar el título cuando el componente se desmonta
 		return () => setPageTitle("ATE Berisso");
-	}, []);
+	}, []); */
 	return (
 		<>
-			<Helmet>
+{/* 			<Helmet>
 				<title>{pageTitle}</title>
-			</Helmet>
+			</Helmet> */}
 			<div className="hero min-h-screen bg-white">
 				<div className="hero-content text-center">
 					<div className="max-w-md">
